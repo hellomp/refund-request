@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <auto_resolution_enabled>false</auto_resolution_enabled>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.31",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "3dcc53a0bcd7477a9b43cb68c012f00d": {
+          "id": "3dcc53a0bcd7477a9b43cb68c012f00d",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hello, "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.name}}",
+                      "displayValue": "Input Variables➛User➛Name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". So you would like to open a refund request."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "f4bdc28cffd247068fdaa1b82cbadb7e": {
+          "id": "f4bdc28cffd247068fdaa1b82cbadb7e",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "e2803a4c51fd4dc9bf8e23c8bc5312e9",
+          "edgeType": "Edge",
+          "source": "3dcc53a0bcd7477a9b43cb68c012f00d",
+          "target": "f4bdc28cffd247068fdaa1b82cbadb7e",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Refund request,Open refund,refund</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Refund request</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-02 09:45:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ee61e5c0200370107f449d8a06a3ff42</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Refund request</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_update_name>sys_cb_topic_ee61e5c0200370107f449d8a06a3ff42</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-02 09:47:24</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=ee61e5c0200370107f449d8a06a3ff42"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</application>
+        <file_path/>
+        <instance_id>2631122d1b72f89430e4a9f7624bcb30</instance_id>
+        <instance_name>qrc3-aug-677-091</instance_name>
+        <name>sys_cb_topic_ee61e5c0200370107f449d8a06a3ff42</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><applicability_mode>query</applicability_mode><auto_resolution_enabled>false</auto_resolution_enabled><category/><channels/><connect_queue/><description/><flexible_conversation_switching>false</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.31",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "3dcc53a0bcd7477a9b43cb68c012f00d": {
+          "id": "3dcc53a0bcd7477a9b43cb68c012f00d",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hello, "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.name}}",
+                      "displayValue": "Input Variables➛User➛Name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". So you would like to open a refund request."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "f4bdc28cffd247068fdaa1b82cbadb7e": {
+          "id": "f4bdc28cffd247068fdaa1b82cbadb7e",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "e2803a4c51fd4dc9bf8e23c8bc5312e9",
+          "edgeType": "Edge",
+          "source": "3dcc53a0bcd7477a9b43cb68c012f00d",
+          "target": "f4bdc28cffd247068fdaa1b82cbadb7e",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph><key_phrases>Refund request,Open refund,refund</key_phrases><library>false</library><live_agent>false</live_agent><name>Refund request</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><roles/><source_topic_id/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-02 09:45:53</sys_created_on><sys_domain>global</sys_domain><sys_id>ee61e5c0200370107f449d8a06a3ff42</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Refund request</sys_name><sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package><sys_policy/><sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope><sys_update_name>sys_cb_topic_ee61e5c0200370107f449d8a06a3ff42</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-02 09:47:24</sys_updated_on><triggerable_by_notification>false</triggerable_by_notification><type>STANDARD</type><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=ee61e5c0200370107f449d8a06a3ff42"/></record_update>]]></payload>
+        <payload_hash>-752755035</payload_hash>
+        <record_name>Refund request</record_name>
+        <reverted_from/>
+        <source>f0b743a7c83230107f44c9748fa80234</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-02 09:47:24</sys_created_on>
+        <sys_id>7cc12100200370107f449d8a06a3ffb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c4066b1940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-02 09:47:24</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>f4c12100ed037010c0542b668a5f36b0</update_guid>
+        <update_guid_history>f4c12100ed037010c0542b668a5f36b0:-752755035,3261e5c03c037010e36b4b27328c7a66:-820571150</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-02 10:08:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>2e90678764e849a8a3c6d5526ceded04</sys_id>
+        <sys_metadata>ee61e5c0200370107f449d8a06a3ff42</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refund request</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_scope_delete display_value="">0e4a8a090972478c815e6fc52cdd4124</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_ee61e5c0200370107f449d8a06a3ff42</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_ee61e5c0200370107f449d8a06a3ff42">7cc12100200370107f449d8a06a3ffb0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-02 10:08:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

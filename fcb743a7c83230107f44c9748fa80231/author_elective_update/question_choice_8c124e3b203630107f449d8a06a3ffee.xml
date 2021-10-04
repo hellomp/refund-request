@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>4</order>
+        <published_ref/>
+        <question display_value="Type">cc124e3b203630107f449d8a06a3ffde</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-01 17:30:03</sys_created_on>
+        <sys_id>8c124e3b203630107f449d8a06a3ffee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Education</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_update_name>question_choice_8c124e3b203630107f449d8a06a3ffee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-01 17:30:03</sys_updated_on>
+        <text>Education</text>
+        <value>education</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=8c124e3b203630107f449d8a06a3ffee"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</application>
+        <file_path/>
+        <instance_id>2631122d1b72f89430e4a9f7624bcb30</instance_id>
+        <instance_name>qrc3-aug-677-091</instance_name>
+        <name>question_choice_8c124e3b203630107f449d8a06a3ffee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>4</order><published_ref/><question display_value="Type">cc124e3b203630107f449d8a06a3ffde</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-01 17:30:03</sys_created_on><sys_id>8c124e3b203630107f449d8a06a3ffee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Education</sys_name><sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package><sys_policy/><sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope><sys_update_name>question_choice_8c124e3b203630107f449d8a06a3ffee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-01 17:30:03</sys_updated_on><text>Education</text><value>education</value></question_choice><fx_price action="delete_multiple" query="id=8c124e3b203630107f449d8a06a3ffee"/></record_update>]]></payload>
+        <payload_hash>-623567874</payload_hash>
+        <record_name>Education</record_name>
+        <reverted_from/>
+        <source>f0b743a7c83230107f44c9748fa80234</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-01 17:30:03</sys_created_on>
+        <sys_id>88124e3b203630107f449d8a06a3fff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c3ce7e7be0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-01 17:30:03</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>c0124e3b80363010063ddfbddb225bf0</update_guid>
+        <update_guid_history>c0124e3b80363010063ddfbddb225bf0:-623567874</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Education">6492867b203630107f449d8a06a3ff64</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-01 17:32:16</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>03883d9dc77c4657803608d7e4005ff9</sys_id>
+        <sys_metadata>8c124e3b203630107f449d8a06a3ffee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Education</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_parent display_value="What is the type of the expense?">cc124e3b203630107f449d8a06a3ffde</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_scope_delete display_value="">0e4a8a090972478c815e6fc52cdd4124</sys_scope_delete>
+        <sys_update_name>question_choice_8c124e3b203630107f449d8a06a3ffee</sys_update_name>
+        <sys_update_version display_value="question_choice_8c124e3b203630107f449d8a06a3ffee">88124e3b203630107f449d8a06a3fff0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-01 17:32:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

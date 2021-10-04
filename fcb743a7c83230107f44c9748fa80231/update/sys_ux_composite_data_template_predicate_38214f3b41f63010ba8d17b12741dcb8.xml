@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sc_2_sc">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>related_sc_cat_item.category.title,related_sc_cat_item.picture,related_sc_cat_item.name,related_sc_cat_item.price,related_sc_cat_item.short_description,related_sc_cat_item.recurring_price,related_sc_cat_item.recurring_frequency</field_list>
+        <name>Custom portal - Related items predicate</name>
+        <order/>
+        <predicate_bundle display_value="Custom portal - Related items">b4214f3b91f63010afc02d48afd7e6b7</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-10-01 22:05:40</sys_created_on>
+        <sys_id>38214f3b41f63010ba8d17b12741dcb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom portal - Related items predicate</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_38214f3b41f63010ba8d17b12741dcb8</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-01 22:05:40</sys_updated_on>
+        <table>sc_2_sc</table>
+        <ux_template display_value="Custom Portal Catalog item page - Related items template">b0214f3b4cf63010e50a538753f309b8</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

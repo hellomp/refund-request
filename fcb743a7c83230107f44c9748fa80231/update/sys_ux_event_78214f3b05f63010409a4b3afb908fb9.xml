@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <event_name>CONTENT_UPDATED_RELAY_b8214f3bb9f63010c50a31b6428970c2</event_name>
+        <interfaces/>
+        <label>Content Updated Relay</label>
+        <props>[{"name":"params","label":"Optionals Parameters","fieldType":"json","valueType":"string"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-10-01 22:05:41</sys_created_on>
+        <sys_id>78214f3b05f63010409a4b3afb908fb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content Updated Relay</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_update_name>sys_ux_event_78214f3b05f63010409a4b3afb908fb9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-01 22:05:41</sys_updated_on>
+    </sys_ux_event>
+</record_update>

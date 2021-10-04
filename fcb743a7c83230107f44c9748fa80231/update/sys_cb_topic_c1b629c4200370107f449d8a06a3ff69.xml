@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <auto_resolution_enabled>false</auto_resolution_enabled>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.31",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "a41878bc1e8448f89131c6db63f348a2": {
+          "id": "a41878bc1e8448f89131c6db63f348a2",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hello, "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.name}}",
+                      "displayValue": "Input Variables➛User➛Name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". So you would like to open a refund reques, right?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "3ea0d6d9596b482880fad9ed10901de1": {
+          "id": "3ea0d6d9596b482880fad9ed10901de1",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Thank you for creating your refund request, "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.name}}",
+                      "displayValue": "Input Variables➛User➛Name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "8699267924a447689feec03316e141a9": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Request for",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "First, tell me who is this refund for?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "89f5448bec1c49ddb32f0095fa5ccf5c",
+          "id": "8699267924a447689feec03316e141a9",
+          "mode": "glide_record",
+          "script": "",
+          "metadataScript": "",
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "I couldn't find that employee..."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "active=true"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "128b2c3b777a4f489f1d9d3f16b5d269": {
+          "stepType": "ChoicePrompt",
+          "name": "Type",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "What is the type of the expense"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "3c753f3b9b9c4ae2aa33342f42678807",
+          "id": "128b2c3b777a4f489f1d9d3f16b5d269",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "36591ba4c71d43d993e6efc9e10e82fb": {
+          "id": "36591ba4c71d43d993e6efc9e10e82fb",
+          "stepType": "Prompt",
+          "name": "Value",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "And how much was expended?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "1d093f2da9df4fcba0a0b2fcc8e1912e",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        },
+        "cace4ce4e4c140a98198e24c2f151c58": {
+          "id": "cace4ce4e4c140a98198e24c2f151c58",
+          "stepType": "Prompt",
+          "name": "Attachment",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Now please, sendo a photo of your invoice"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "df2a5197930b481ca6653cbcf7fa6763"
+        },
+        "7ea8ac300b354bbbaa20e40bfbdaa7fe": {
+          "id": "7ea8ac300b354bbbaa20e40bfbdaa7fe",
+          "stepType": "CrudAction",
+          "name": "Create request",
+          "template": "u_requested_for={{vaInputs.request_for}}^u_value={{vaInputs.value}}^u_type={{vaInputs.type}}^opened_by={{vaInputs.user}}",
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "f24a07d284d54702bbaf453437a00ba0"
+        },
+        "1ef09bb73eca4e3cb81d767e3e9789fc": {
+          "id": "1ef09bb73eca4e3cb81d767e3e9789fc",
+          "stepType": "RecordOutput",
+          "name": "Request created",
+          "variableId": "f24a07d284d54702bbaf453437a00ba0",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "x_snc_refund_req_0_refund_request",
+          "fields": [
+            "u_requested_for",
+            "u_type",
+            "u_value"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "bb5114bb29764b6e89a097a33dda86b3",
+          "edgeType": "Edge",
+          "source": "a41878bc1e8448f89131c6db63f348a2",
+          "target": "8699267924a447689feec03316e141a9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0d7c5ad728f945ef9fe06dd1bb34b2e6",
+          "edgeType": "Edge",
+          "source": "8699267924a447689feec03316e141a9",
+          "target": "128b2c3b777a4f489f1d9d3f16b5d269",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "89f06e708f344190947485495e756b18",
+          "edgeType": "Edge",
+          "source": "128b2c3b777a4f489f1d9d3f16b5d269",
+          "target": "36591ba4c71d43d993e6efc9e10e82fb",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "aa4731e1e040483ebf19a5eb6ab10f6a",
+          "edgeType": "Edge",
+          "source": "36591ba4c71d43d993e6efc9e10e82fb",
+          "target": "cace4ce4e4c140a98198e24c2f151c58",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "dd57ed950b254cffb20a98c5eeb95d5e",
+          "edgeType": "Edge",
+          "source": "cace4ce4e4c140a98198e24c2f151c58",
+          "target": "7ea8ac300b354bbbaa20e40bfbdaa7fe",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "cec7b018c1fb4c92a7b14fde398e5158",
+          "edgeType": "Edge",
+          "source": "7ea8ac300b354bbbaa20e40bfbdaa7fe",
+          "target": "1ef09bb73eca4e3cb81d767e3e9789fc",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "7be1adb163894b4f9b3c56a92366fc2a",
+          "edgeType": "Edge",
+          "source": "1ef09bb73eca4e3cb81d767e3e9789fc",
+          "target": "3ea0d6d9596b482880fad9ed10901de1",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "89f5448bec1c49ddb32f0095fa5ccf5c": {
+      "id": "89f5448bec1c49ddb32f0095fa5ccf5c",
+      "name": "request_for",
+      "label": "Request For",
+      "varType": "reference",
+      "table": "sys_user",
+      "category": "vaInputs"
+    },
+    "3c753f3b9b9c4ae2aa33342f42678807": {
+      "id": "3c753f3b9b9c4ae2aa33342f42678807",
+      "name": "type",
+      "label": "Type",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Food",
+          "value": "food"
+        },
+        {
+          "label": "Transport",
+          "value": "transport",
+          "checked": true
+        },
+        {
+          "label": "Hotel",
+          "value": "hotel",
+          "checked": true
+        },
+        {
+          "label": "Education",
+          "value": "education",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "1d093f2da9df4fcba0a0b2fcc8e1912e": {
+      "id": "1d093f2da9df4fcba0a0b2fcc8e1912e",
+      "name": "value",
+      "label": "Value",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTYzMzE2OTUyMTY2NyBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      }
+    },
+    "df2a5197930b481ca6653cbcf7fa6763": {
+      "id": "df2a5197930b481ca6653cbcf7fa6763",
+      "name": "attachment",
+      "label": "Attachment",
+      "varType": "image",
+      "secure": false,
+      "category": "vaInputs"
+    },
+    "f24a07d284d54702bbaf453437a00ba0": {
+      "id": "f24a07d284d54702bbaf453437a00ba0",
+      "name": "create_request",
+      "label": "Create Request",
+      "varType": "reference",
+      "table": "x_snc_refund_req_0_refund_request",
+      "inactive": false,
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Refund request,refund</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Refund request</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-02 10:09:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c1b629c4200370107f449d8a06a3ff69</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Refund request</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_update_name>sys_cb_topic_c1b629c4200370107f449d8a06a3ff69</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-02 10:17:44</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=c1b629c4200370107f449d8a06a3ff69"/>
+</record_update>

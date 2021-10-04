@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-10-01 22:05:43</sys_created_on>
+        <sys_id>8e21cf3b20f630107f449d8a06a3ff56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f0214f3b20f630107f449d8a06a3ff94.x_snc_refund_req_0.sale</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_security_acl display_value="f0214f3b20f630107f449d8a06a3ff94">f0214f3b00f63010d82687a8222b0cbf</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8e21cf3b20f630107f449d8a06a3ff56</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-01 22:05:43</sys_updated_on>
+        <sys_user_role display_value="x_snc_refund_req_0.sale" name="x_snc_refund_req_0.sale">4de9872bc83230107f44c9748fa80248</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

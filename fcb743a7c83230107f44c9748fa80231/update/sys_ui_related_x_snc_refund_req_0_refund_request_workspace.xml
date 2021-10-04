@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_snc_refund_req_0_refund_request" version="2" view="workspace">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Refund Request - Workspace" name="x_snc_refund_req_0_refund_request" related_list="NULL" sys_domain="global" view="0b7b0a86f43620107f4446973d0adbd8">ec40f1fb20f230107f449d8a06a3ffcd</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:40e557e3c87230107f44c9748fa802d4</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-01 16:12:16</sys_created_on>
+            <sys_id>2840f1fb20f230107f449d8a06a3ffcf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-01 16:12:16</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Refund Request - Workspace" name="x_snc_refund_req_0_refund_request" related_list="NULL" sys_domain="global" view="0b7b0a86f43620107f4446973d0adbd8">ec40f1fb20f230107f449d8a06a3ffcd</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_snc_refund_req_0_refund_task.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-01 16:12:16</sys_created_on>
+            <sys_id>e040f1fb20f230107f449d8a06a3ffd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-01 16:12:16</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Refund Request - Workspace</calculated_name>
+            <filter/>
+            <name>x_snc_refund_req_0_refund_request</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-01 16:12:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec40f1fb20f230107f449d8a06a3ffcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Refund Request - Workspace</sys_name>
+            <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+            <sys_update_name>sys_ui_related_x_snc_refund_req_0_refund_request_workspace</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-01 16:12:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">0b7b0a86f43620107f4446973d0adbd8</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

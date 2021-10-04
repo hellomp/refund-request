@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_4",
+  "elementLabel" : "Container 4",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "breadcrumbs_1",
+      "elementLabel" : "Breadcrumbs 1",
+      "propertyValues" : {
+        "items" : {
+          "type" : "CLIENT_TRANSFORM_SCRIPT",
+          "script" : {
+            "apiVersion" : "1.0.0",
+            "inlineScript" : "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {any} params.imports\n  */\nfunction evaluateProperty({api}) {\n\treturn [{\n            \"label\": \"Home\",\n            \"icon\": \"home-outline\",\n            \"hideLabel\": false\n        },\n        {\n            \"label\": \"Refund Request\"\n        }\n    ];\n}"
+          }
+        },
+        "delimiter" : {
+          "type" : "JSON_LITERAL",
+          "value" : "chevron"
+        },
+        "overflow" : {
+          "type" : "JSON_LITERAL",
+          "value" : "collapse"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "9c2e48402c6c25d281faeb20637f6106",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "record_header_1",
+      "elementLabel" : "Record Header 1",
+      "propertyValues" : {
+        "table" : {
+          "type" : "JSON_LITERAL",
+          "value" : "x_snc_refund_req_0_refund_request"
+        },
+        "sysId" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "sysId" ],
+            "category" : "props"
+          }
+        },
+        "workspaceConfigId" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "primaryValue" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "look_up_record_1", "result", "number", "displayValue" ]
+          }
+        },
+        "subHeadingValue" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "look_up_record_1", "result", "u_requested_for", "displayValue" ]
+          }
+        },
+        "secondaryItems" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "headerImageItem" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "hideTagsValue" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "4d537db98a05adaf55f9e219c50d1358",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","margin":"10px 0px 10px 0px"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "container_2",
+  "elementLabel" : "Container 2",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "form__fields_1",
+      "elementLabel" : "Form - fields 1",
+      "propertyValues" : {
+        "table" : {
+          "type" : "JSON_LITERAL",
+          "value" : "x_snc_refund_req_0_refund_request"
+        },
+        "sysId" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "sysId" ],
+            "category" : "props"
+          }
+        },
+        "view" : {
+          "type" : "JSON_LITERAL",
+          "value" : "Portal"
+        },
+        "forcedViewName" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "query" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "readOnlyForm" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "inUiBuilder" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "workspaceConfigId" : {
+          "type" : "JSON_LITERAL",
+          "value" : "7b24ceae5304130084acddeeff7b12a3"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "f4d3254a798ef092d9023d408f257789",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","margin":"0px 0px 10px 0px"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "container_3",
+  "elementLabel" : "Container 3",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "activity_stream_1",
+      "elementLabel" : "Activity Stream 1",
+      "propertyValues" : {
+        "title" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Activity",
+            "comment" : ""
+          }
+        },
+        "table" : {
+          "type" : "JSON_LITERAL",
+          "value" : "x_snc_refund_req_0_refund_request"
+        },
+        "sysId" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "sysId" ],
+            "category" : "props"
+          }
+        },
+        "view" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Workspace",
+            "comment" : ""
+          }
+        },
+        "isNewRecord" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showConversationFilter" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "showTileAvatars" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "showTileIcons" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "events" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "supplemental" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "ambChannels" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "userReferences" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "filterOptions" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "timestamp" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "821dfc11da1d0fb007579ccb53738fd5",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "margin-bottom" : "20px"
+      }
+    }, {
+      "elementId" : "attachments_1",
+      "elementLabel" : "Attachments 1",
+      "propertyValues" : {
+        "table" : {
+          "type" : "JSON_LITERAL",
+          "value" : "x_snc_refund_req_0_refund_request"
+        },
+        "sysId" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "sysId" ],
+            "category" : "props"
+          }
+        },
+        "isAttachmentUploadDisabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "isReadOnly" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "mode" : {
+          "type" : "JSON_LITERAL",
+          "value" : "full"
+        },
+        "recordDisplayValue" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "0e238931bce36c9fe3b52475c69c85a3",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "dc6e87a5232200100e4bc50947bf654b",
+    "type" : "CLIENT_STATE"
+  },
+  "elementId" : "glide_form_1",
+  "elementLabel" : "Glide Form 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_snc_refund_req_0_refund_request"
+    },
+    "sysId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "sysId" ],
+        "category" : "props"
+      }
+    },
+    "actionConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "headerConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "ribbonConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "viewRuleConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "highlightedValueConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "view" : {
+      "type" : "JSON_LITERAL",
+      "value" : "default view"
+    },
+    "forcedViewName" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "query" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "showActivityStreamInDetails" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "detailsContext" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "activityLogs" ],
+        "category" : "props"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "9664d48053461010cbc2ddeeff7b128e",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "look_up_record_1",
+  "elementLabel" : "Look Up Record 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_snc_refund_req_0_refund_request"
+    },
+    "recordId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "sysId" ],
+        "category" : "props"
+      }
+    },
+    "returnFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : "number,u_requested_for,u_value,sys_created_on,u_type"
+    },
+    "returnTableMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "returnFieldMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "bc214f3b20f630107f449d8a06a3ff93",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "display_value_block_transform_1",
+  "elementLabel" : "Display value block transform 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "catBroker" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "look_up_record_1", "result" ]
+      }
+    },
+    "table" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "table" ]
+      }
+    },
+    "user" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "user", "userName" ],
+        "category" : "session"
+      }
+    },
+    "requested" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "look_up_record_1", "result", "u_requested_for", "displayValue" ]
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "9664d48053461010cbc2ddeeff7b128e",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "look_up_record_2",
+  "elementLabel" : "Look Up Record 2",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "table" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "table" ]
+      }
+    },
+    "recordId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "sysId" ],
+        "category" : "props"
+      }
+    },
+    "returnFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : "u_requested_for"
+    },
+    "returnTableMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "returnFieldMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Sidebar 1","rules":{"grid-area":"sidebar1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","margin":"10px 0px 0px 0px"}},{"slotName":"Sidebar 2","rules":{"grid-area":"sidebar2"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"3fr 6fr 3fr","grid-template-areas":"\"sidebar1 main sidebar2\"","grid-gap":"1rem","height":"100%"},
+    "styles" : null,
+    "templateId" : "90dfe54d53c31010e6bcddeeff7b12d1",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Request refund</name>
+        <props>[ {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false
+} ]</props>
+        <required_translations>[{"message":"Activity","comment":""},{"message":"Workspace","comment":""}]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "table",
+  "label" : "table",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : "x_snc_refund_req_0_refund_request"
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-01 23:35:47</sys_created_on>
+        <sys_id>adc55ff7203a30107f449d8a06a3ff22</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>Request refund</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_update_name>sys_ux_macroponent_adc55ff7203a30107f449d8a06a3ff22</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-02 10:47:55</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

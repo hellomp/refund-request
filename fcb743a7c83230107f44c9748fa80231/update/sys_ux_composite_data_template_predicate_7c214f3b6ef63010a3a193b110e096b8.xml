@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="kb_knowledge">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>short_description,author.avatar,author.name,description,sys_view_count,rating</field_list>
+        <name>Popular articles predicate</name>
+        <order/>
+        <predicate_bundle display_value="Popular articles bundle">34214f3b71f630108463f735b47137b7</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-10-01 22:05:40</sys_created_on>
+        <sys_id>7c214f3b6ef63010a3a193b110e096b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular articles predicate</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_7c214f3b6ef63010a3a193b110e096b8</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-01 22:05:40</sys_updated_on>
+        <table>kb_knowledge</table>
+        <ux_template display_value="Popular articles template">b4214f3be0f630107c78e755b51038b8</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Article page">70214f3b2cf63010551d1d8f61e394b3</macroponent>
+        <name>setFeedbackReason</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var selectedReasons = [];
+    selectedReasons.push(event.payload.item.id);
+    api.setState("selectedReason", () => selectedReasons);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-10-01 22:05:38</sys_created_on>
+        <sys_id>30214f3b2cf63010a6713e16420b4cb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>setFeedbackReason</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_update_name>sys_ux_client_script_30214f3b2cf63010a6713e16420b4cb3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-01 22:05:38</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

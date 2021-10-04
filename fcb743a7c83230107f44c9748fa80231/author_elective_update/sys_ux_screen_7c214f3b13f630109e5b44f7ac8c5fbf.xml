@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Refund Request Portal Config">38214f3b20f630107f449d8a06a3ff93</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "ckghukujjcaaaabbdddghheffgjmiiefcc",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "global.NAV_ITEM_SELECTED_RELAY_38214f3b5ef63010a4dd0f1ba92361b0",
+  "sourceEventDefinition" : {
+    "apiName" : "global.NAV_ITEM_SELECTED_RELAY_38214f3b5ef63010a4dd0f1ba92361b0",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckghukujjcaaaabbcddghhepttnwfohh",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="Record Page(request)">38214f3b5ef63010a4dd0f1ba92361b0</macroponent>
+        <macroponent_config>{
+  "sysId" : "",
+  "table" : "",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "n",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Record Page(request) Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Record Page(request)">74214f3b23f6301038526fb331495db2</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-10-01 22:05:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c214f3b13f630109e5b44f7ac8c5fbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Page(request) Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_update_name>sys_ux_screen_7c214f3b13f630109e5b44f7ac8c5fbf</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-01 22:05:38</sys_updated_on>
+    </sys_ux_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</application>
+        <file_path/>
+        <instance_id>2631122d1b72f89430e4a9f7624bcb30</instance_id>
+        <instance_name>qrc3-aug-677-091</instance_name>
+        <name>sys_ux_screen_7c214f3b13f630109e5b44f7ac8c5fbf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Refund Request Portal Config">38214f3b20f630107f449d8a06a3ff93</app_config><description/><event_mappings>[ {
+  "eventMappingId" : "ckghukujjcaaaabbdddghheffgjmiiefcc",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "global.NAV_ITEM_SELECTED_RELAY_38214f3b5ef63010a4dd0f1ba92361b0",
+  "sourceEventDefinition" : {
+    "apiName" : "global.NAV_ITEM_SELECTED_RELAY_38214f3b5ef63010a4dd0f1ba92361b0",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckghukujjcaaaabbcddghhepttnwfohh",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings><macroponent display_value="Record Page(request)">38214f3b5ef63010a4dd0f1ba92361b0</macroponent><macroponent_config>{
+  "sysId" : "",
+  "table" : "",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "n",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config><name>Record Page(request) Default</name><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><required_translations>[]</required_translations><screen_condition/><screen_type display_value="Record Page(request)">74214f3b23f6301038526fb331495db2</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2021-10-01 22:05:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7c214f3b13f630109e5b44f7ac8c5fbf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Record Page(request) Default</sys_name><sys_overrides/><sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package><sys_policy/><sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope><sys_update_name>sys_ux_screen_7c214f3b13f630109e5b44f7ac8c5fbf</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2021-10-01 22:05:38</sys_updated_on></sys_ux_screen></record_update>]]></payload>
+        <payload_hash>1375430182</payload_hash>
+        <record_name>Record Page(request) Default</record_name>
+        <reverted_from/>
+        <source>4bb34e02f43220107f4446973d0adbaf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-03-11 10:56:49</sys_created_on>
+        <sys_id>c7bfa3fb207a30107f449d8a06a3ff62</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17820ee91680000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Screen</type>
+        <update_guid>87bfa3fbc97a301027854509fbaeef62</update_guid>
+        <update_guid_history>87bfa3fbc97a301027854509fbaeef62:1375430182</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-02 01:29:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>7f82265484d74560aac99121563da090</sys_id>
+        <sys_metadata>7c214f3b13f630109e5b44f7ac8c5fbf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Page(request) Default</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_scope_delete display_value="">0e4a8a090972478c815e6fc52cdd4124</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_7c214f3b13f630109e5b44f7ac8c5fbf</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_7c214f3b13f630109e5b44f7ac8c5fbf">c7bfa3fb207a30107f449d8a06a3ff62</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-02 01:29:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

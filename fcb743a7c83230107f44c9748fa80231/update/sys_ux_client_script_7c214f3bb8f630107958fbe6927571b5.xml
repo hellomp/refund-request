@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Catalog Item Page">b8214f3bb9f63010c50a31b6428970c2</macroponent>
+        <name>Set Related item sysId</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports
+}) {
+    api.setState("relatedItemSysId", event.payload.sysId);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-10-01 22:05:41</sys_created_on>
+        <sys_id>7c214f3bb8f630107958fbe6927571b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Related item sysId</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_update_name>sys_ux_client_script_7c214f3bb8f630107958fbe6927571b5</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-01 22:05:41</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

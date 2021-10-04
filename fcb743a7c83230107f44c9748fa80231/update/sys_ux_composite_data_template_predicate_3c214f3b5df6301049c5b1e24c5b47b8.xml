@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>due_date,short_description,state,number</field_list>
+        <name>My Request - task predicate</name>
+        <order/>
+        <predicate_bundle display_value="My request - task bundle">38214f3b2ff63010d7e73e5e415c6eb7</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-10-01 22:05:38</sys_created_on>
+        <sys_id>3c214f3b5df6301049c5b1e24c5b47b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Request - task predicate</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_3c214f3b5df6301049c5b1e24c5b47b8</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-01 22:05:38</sys_updated_on>
+        <table>task</table>
+        <ux_template display_value="Item produced template">70214f3b70f63010f017205ff84736b8</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

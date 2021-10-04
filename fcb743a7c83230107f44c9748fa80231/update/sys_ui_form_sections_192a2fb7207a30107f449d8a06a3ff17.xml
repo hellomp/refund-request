@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="192a2fb7207a30107f449d8a06a3ff17" sys_domain="global" table="x_snc_refund_req_0_refund_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-02 04:42:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>feeb908c20cb30107f449d8a06a3ff05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_refund_req_0_refund_request" name="x_snc_refund_req_0_refund_request" sys_domain="global" view="0b7b0a86f43620107f4446973d0adbd8">192a2fb7207a30107f449d8a06a3ff17</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_snc_refund_req_0_refund_request" sys_domain="global" view="0b7b0a86f43620107f4446973d0adbd8">eeeb508c20cb30107f449d8a06a3ff8a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-02 04:42:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-02 04:50:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9dddd8cc20cb30107f449d8a06a3ff25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_refund_req_0_refund_request" name="x_snc_refund_req_0_refund_request" sys_domain="global" view="0b7b0a86f43620107f4446973d0adbd8">192a2fb7207a30107f449d8a06a3ff17</sys_ui_form>
+            <sys_ui_section caption="Expense" display_value="Expense" name="x_snc_refund_req_0_refund_request" sys_domain="global" view="0b7b0a86f43620107f4446973d0adbd8">d9ddd8cc20cb30107f449d8a06a3ff22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-02 04:50:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_refund_req_0_refund_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-02 01:04:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>192a2fb7207a30107f449d8a06a3ff17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_refund_req_0_refund_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+            <sys_update_name>sys_ui_form_sections_192a2fb7207a30107f449d8a06a3ff17</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-02 01:04:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">0b7b0a86f43620107f4446973d0adbd8</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

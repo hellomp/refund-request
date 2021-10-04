@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>Request refund</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-01 23:22:04</sys_created_on>
+        <sys_id>a0a2d333203a30107f449d8a06a3ffb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request refund</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_update_name>sys_ux_screen_type_a0a2d333203a30107f449d8a06a3ffb1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-01 23:22:04</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="DELETE" query="documentkey=a0a2d333203a30107f449d8a06a3ffb1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</application>
+        <file_path/>
+        <instance_id>2631122d1b72f89430e4a9f7624bcb30</instance_id>
+        <instance_name>qrc3-aug-677-091</instance_name>
+        <name>sys_ux_screen_type_a0a2d333203a30107f449d8a06a3ffb1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>Request refund</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-01 23:22:04</sys_created_on><sys_id>a0a2d333203a30107f449d8a06a3ffb1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Request refund</sys_name><sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package><sys_policy/><sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope><sys_update_name>sys_ux_screen_type_a0a2d333203a30107f449d8a06a3ffb1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-01 23:22:04</sys_updated_on></sys_ux_screen_type><sys_translated_text action="delete_multiple" query="documentkey=a0a2d333203a30107f449d8a06a3ffb1"/></record_update>]]></payload>
+        <payload_hash>-1803321724</payload_hash>
+        <record_name>Request refund</record_name>
+        <reverted_from/>
+        <source>f0b743a7c83230107f44c9748fa80234</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-01 23:22:04</sys_created_on>
+        <sys_id>68a2d333203a30107f449d8a06a3ffb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c3e2a2dc80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-01 23:22:04</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>a0a2d333fa3a30100982d0372ebb1cb3</update_guid>
+        <update_guid_history>a0a2d333fa3a30100982d0372ebb1cb3:-1803321724</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-01 23:35:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>10eb3a41691640c79090844fe80f8829</sys_id>
+        <sys_metadata>a0a2d333203a30107f449d8a06a3ffb1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request refund</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_scope_delete display_value="">0e4a8a090972478c815e6fc52cdd4124</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_a0a2d333203a30107f449d8a06a3ffb1</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_a0a2d333203a30107f449d8a06a3ffb1">68a2d333203a30107f449d8a06a3ffb3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-01 23:35:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

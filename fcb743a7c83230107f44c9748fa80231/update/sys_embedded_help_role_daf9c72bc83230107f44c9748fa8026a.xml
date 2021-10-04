@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="x_snc_refund_req_0.approver_manager" name="x_snc_refund_req_0.approver_manager">42f9c72bc83230107f44c9748fa80268</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-01 04:05:45</sys_created_on>
+        <sys_id>daf9c72bc83230107f44c9748fa8026a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>42f9c72bc83230107f44c9748fa80268</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_update_name>sys_embedded_help_role_daf9c72bc83230107f44c9748fa8026a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-01 04:05:45</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

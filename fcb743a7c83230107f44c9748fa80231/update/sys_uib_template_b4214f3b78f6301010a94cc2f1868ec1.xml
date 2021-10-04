@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_template">
+    <sys_uib_template action="INSERT_OR_UPDATE">
+        <associated_types>f198e5625311101017caddeeff7b120d,dcc732935301101017caddeeff7b1255</associated_types>
+        <image display_value="ui-builder-templates-one-region.svg">a560964877311010d99bbc3f681061ce</image>
+        <label>Portal Page with Background</label>
+        <macroponent display_value="Portal Page">38214f3be6f6301051c0fd96c1152ac1</macroponent>
+        <order>0</order>
+        <sys_class_name>sys_uib_template</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-10-01 22:05:40</sys_created_on>
+        <sys_id>b4214f3b78f6301010a94cc2f1868ec1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Portal Page with Background</sys_name>
+        <sys_package display_value="Refund Request" source="x_snc_refund_req_0">fcb743a7c83230107f44c9748fa80231</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Request">fcb743a7c83230107f44c9748fa80231</sys_scope>
+        <sys_update_name>sys_uib_template_b4214f3b78f6301010a94cc2f1868ec1</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-01 22:05:40</sys_updated_on>
+    </sys_uib_template>
+</record_update>

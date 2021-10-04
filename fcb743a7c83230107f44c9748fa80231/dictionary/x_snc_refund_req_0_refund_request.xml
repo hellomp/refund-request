@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Refund Request" max_length="40" name="x_snc_refund_req_0_refund_request" sizeclass="8" type="collection">
+        <element label="Requested for" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element label="Stage" max_length="80" name="u_stage" type="workflow"/>
+        <element choice="3" label="Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="10" value="open"/>
+                <element inactive_on_update="false" label="Manager" sequence="20" value="manager"/>
+                <element inactive_on_update="false" label="Finance" sequence="30" value="finance"/>
+                <element inactive_on_update="false" label="Personnel Department" sequence="40" value="personnel_department"/>
+            </choice>
+        </element>
+        <element choice="3" label="Type" max_length="40" name="u_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Food" sequence="10" value="food"/>
+                <element inactive_on_update="false" label="Travel" sequence="20" value="travel"/>
+                <element inactive_on_update="false" label="Hotel" sequence="30" value="hotel"/>
+                <element inactive_on_update="false" label="Education" sequence="40" value="education"/>
+            </choice>
+        </element>
+        <element label="Value" max_length="20" name="u_value" type="decimal"/>
+    </element>
+</database>
